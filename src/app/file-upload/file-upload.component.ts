@@ -7,13 +7,13 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-image-upload',
+  selector: 'app-file-upload',
   standalone: true,
   imports: [CommonModule, FormsModule, ReactiveFormsModule, HttpClientModule],
-  templateUrl: './image-upload.component.html',
-  styleUrl: './image-upload.component.css'
+  templateUrl: './file-upload.component.html',
+  styleUrl: './file-upload.component.css'
 })
-export class ImageUploadComponent {
+export class FileUploadComponent {
 
   /*------------------------------------------
   --------------------------------------------
@@ -77,5 +77,4 @@ export class ImageUploadComponent {
         alert('Uploaded Successfully.');
       })
   }
-
 }
